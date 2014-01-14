@@ -63,11 +63,11 @@ to date, in red if there are changes, in yellow if there are pending
 commits to push;
 * the number of added/deleted lines (git) or files (fossil), if
 changes have been made and the number of pending commits, if any;
-* a yellow plus if there is stashed modifications;
-* a red star if there is some untracked files in the repository;
+* a yellow plus if there are stashed modifications;
+* a red star if there are some untracked files in the repository;
 * the error code of the last command, if it has failed in some way;
 * a smart mark: ± for git directories, ☿ for mercurial, ‡ for svn,
-‡± for git-svn, ⌘ for fossil, $ or % for simple user, a red # for root;
+±‡ for git-svn, ⌘ for fossil, $ or % for simple user, a red # for root;
 * if you ask for, the liquidprompt will be replicated in your terminal window's
 title (without the colors);
 
